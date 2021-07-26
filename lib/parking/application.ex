@@ -8,7 +8,7 @@ defmodule Parking.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      Parking.Repo,
+      # Parking.Repo,
       # Start the Telemetry supervisor
       ParkingWeb.Telemetry,
       # Start the PubSub system
